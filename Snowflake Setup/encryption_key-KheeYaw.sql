@@ -1,0 +1,5 @@
+CREATE TABLE encryption_keys (
+    key_id INT AUTOINCREMENT PRIMARY KEY,
+    encrypted_key STRING,
+    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP(),
+);
